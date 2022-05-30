@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background: darkgrey;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#verticalButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: blue;
+}
+
+#carCanvas {
+  background-image: linear-gradient(red, yellow);
+}
+#networkCanvas {
+  background-image: linear-gradient(rgb(20, 15, 15), yellow);
+}
