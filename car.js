@@ -131,6 +131,7 @@ class Car {
     // ctx.fill();
 
     // ctx.restore();
+
     if (this.damaged) {
       ctx.fillStyle = 'grey';
     } else {
